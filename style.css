@@ -1,0 +1,67 @@
+*{
+  margin: 0
+}
+
+
+#main-header{
+color:blue;
+background-color: lightgreen;
+padding: 20px 60px;;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .nav  ul li {
+display: inline;
+padding: 5px 10px;
+
+}
+
+.container .nav ul li a:hover{
+  color: red;
+  transition: color 1s;
+}
+
+
+
+.container .nav ul li a{
+text-decoration: none;
+font-size: 25px;
+font-family: cursive;
+font-weight:normal;
+color: rgb(150,110, 78);
+}
+
+.hero{
+  width: auto;
+  height: 600px;
+  background-image: url(./image/pic1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-color: lightblue;
+  padding-top: 250px
+
+
+}
+
+.hero .content{
+width: 800px;
+height: 400px;
+background-color: lightgreen;
+opacity: 0.8;
+margin: auto;
+text-align: center;
+padding-top: 20px
+}
+
+
+.hero .content img{
+width: 150px;
+height: 150px;
+border-radius: 50%
+
+}
